@@ -1,0 +1,15 @@
+.bubbleShape{
+    margin-top:1em;
+    margin-left: 1em;
+    border-radius: 50%;
+    background-color: pink;
+    width:15em;
+    height:15em;
+    box-shadow: 0.2em 0.2em 0.2em 0.2em rgb(172, 171, 171);
+}
+
+h1{
+    padding:1em;
+    color:green;
+}
+

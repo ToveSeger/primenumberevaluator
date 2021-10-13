@@ -1,0 +1,19 @@
+.nextPrimeBubble{
+    height:10em;
+    width:10em;
+    border-radius: 50%;
+    background-color: pink;
+}
+
+.innerbubble{
+   padding:1.5em;
+}
+
+ .innerbubble h2, h5{
+    color:green;
+ }
+ 
+ #notPrime{
+     color:red;
+ }
+ 
