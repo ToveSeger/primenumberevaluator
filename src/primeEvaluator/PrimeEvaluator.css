@@ -2,7 +2,7 @@
     height:10em;
     width:10em;
     border-radius: 50%;
-    background-color: pink;
+    background-color:var(--clr-orange);
 }
 
 .innerbubble{
@@ -10,10 +10,18 @@
 }
 
  .innerbubble h2, h5{
-    color:green;
+    color:whitesmoke;
  }
  
  #notPrime{
      color:red;
+ }
+
+ #nextPrime{
+     color:var(--clr-grey);
+ }
+
+ #isPrime{
+     color:green;
  }
  

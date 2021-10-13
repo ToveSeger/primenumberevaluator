@@ -1,16 +1,16 @@
 import React from 'react'
 import { Bubble } from '../../components/bubble/Bubble'
 import {Menu} from '../../components/menu/Menu'
-import { nextPrimeNumber } from '../../primeEvaluator/PrimeEvaluator'
+import "./Home.css"
 
 
 
 export const Home = () => {
     
     return (
-        <div>
-            {Bubble("Prime Number Evaluator")}
-            <Menu/>
+        <div className="flex">
+            <div className="bubble">{Bubble("Prime Number Evaluator")}</div>
+            <div className="menu"><Menu/></div>
         </div>
     )
 }

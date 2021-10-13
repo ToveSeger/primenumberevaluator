@@ -1,6 +1,5 @@
 import {useState, useEffect} from 'react'
 import "./Menu.css"
-
 import {nextPrimeNumber, primeNumberCheck} from "../../primeEvaluator/PrimeEvaluator"
 
 export const Menu = () => {
@@ -27,7 +26,7 @@ const valueDeterminator=()=>{
             <div className="flex">
             <input placeholder="Enter number" type="number" onChange={(event) => setNumber(event.target.value)}value={valueDeterminator()} />        
             <h5>{primeNumberCheck(number)}</h5>           
-            <button onClick={reset} className="btn btn-dark">Reset number</button>
+            <button onClick={reset} className="btn">Reset number</button>
             {nextPrimeNumber(number)}
             </div>
             </div>
@@ -35,4 +34,5 @@ const valueDeterminator=()=>{
     )
 }
 
+export default{Menu}
 

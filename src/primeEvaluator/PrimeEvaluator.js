@@ -5,10 +5,10 @@ export function primeNumberCheck(number){
         if (number<=1)return "This is not a prime number.";
         const prime=divideNumber(number);
         if(prime){
-            return <h5 >{number} is a prime number.</h5>       
+            return <h5 id="isPrime">{number} is a prime number.</h5>       
         }
         if (number==undefined) return " ";
-        
+
         else return <h5 id="notPrime">{number} is not a prime number.</h5>
     }
 }
@@ -54,7 +54,7 @@ export function primeNumberCheck(number){
             return(
                 <div className="nextPrimeBubble">
                     <div className="innerbubble">
-                    <h5>Next prime number:</h5>
+                    <h5 id="nextPrime">Next prime number:</h5>
                     <h2>{nextNumber}</h2>
                     </div>
                 </div>
