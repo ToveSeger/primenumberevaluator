@@ -1,0 +1,28 @@
+.container{
+    height: 30em;
+    width:25em;
+    margin-left:auto; 
+    margin-right: auto;
+    background-color: rgb(46, 45, 45);
+    border-radius: 5.5%;
+}
+
+.containerInner{
+    padding:1em;
+}
+
+.flex{
+    display:flex;
+    flex-direction: column;
+}
+
+.btn{
+    width:8em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+h2, h5{
+    color:whitesmoke;
+}
